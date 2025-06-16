@@ -42,12 +42,6 @@ class TaskConfig:
     # 最高允许倍率
     rate: float = 20.0
 
-<<<<<<< HEAD
-    # 标签
-    tag: str = ""
-
-=======
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     # 套餐续期配置
     renew: dict = None
 
@@ -131,10 +125,6 @@ def execute(task_conf: TaskConfig) -> list:
         retry=task_conf.retry,
         rate=task_conf.rate,
         bin_name=task_conf.bin_name,
-<<<<<<< HEAD
-        tag=task_conf.tag,
-=======
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         disable_insecure=task_conf.disable_insecure,
         ignore_exclude=task_conf.ignorede,
         chatgpt=task_conf.chatgpt,
@@ -296,13 +286,8 @@ def refresh(config: dict, push: PushTo, alives: dict, filepath: str = "", skip_r
         crawledsub = config.get("crawl", {}).get("persist", {}).get("subs", "")
         threshold = max(config.get("threshold", 1), 1)
         pushconf = config.get("groups", {}).get(crawledsub, {})
-<<<<<<< HEAD
-        if push.validate(push_conf=pushconf):
-            url = push.raw_url(push_conf=pushconf)
-=======
         if push.validate(config=pushconf):
             url = push.raw_url(config=pushconf)
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
             content = utils.http_get(url=url)
             try:
                 data, count = json.loads(content), 0
@@ -319,11 +304,7 @@ def refresh(config: dict, push: PushTo, alives: dict, filepath: str = "", skip_r
 
                 if count > 0:
                     content = json.dumps(data)
-<<<<<<< HEAD
-                    push.push_to(content=content, push_conf=pushconf, group="crawled-remark")
-=======
                     push.push_to(content=content, config=pushconf, group="crawled-remark")
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
                     logger.info(f"[UpdateInfo] found {count} invalid crawled subscriptions")
             except:
                 logger.error(f"[UpdateError] remark invalid crawled subscriptions failed")
@@ -333,11 +314,7 @@ def refresh(config: dict, push: PushTo, alives: dict, filepath: str = "", skip_r
         logger.debug("[UpdateError] skip update remote config because enable=[False]")
         return
 
-<<<<<<< HEAD
-    if not push.validate(push_conf=update_conf):
-=======
     if not push.validate(config=update_conf):
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         logger.error(f"[UpdateError] update config is invalidate")
         return
 
@@ -376,17 +353,9 @@ def refresh(config: dict, push: PushTo, alives: dict, filepath: str = "", skip_r
             f.write(content)
             f.flush()
 
-<<<<<<< HEAD
-    push.push_to(content=content, push_conf=update_conf, group="update")
-
-
-def standard_sub(url: str) -> bool:
-    regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d))"
-=======
     push.push_to(content=content, config=update_conf, group="update")
 
 
 def standard_sub(url: str) -> bool:
     regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d)|(?:/(?:s|sub)/[a-zA-Z0-9]{32}))"
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     return re.match(regex, url, flags=re.I) is not None

@@ -339,12 +339,6 @@ def scan(params: dict) -> list:
         return []
 
     config = params.get("config", {})
-<<<<<<< HEAD
-    persist = params.get("persist", {})
-    pushtool = push.get_instance(engine=params.get("engine", ""))
-
-    if not pushtool.validate(push_conf=persist) or not config or type(config) != dict or not config.get("push_to"):
-=======
     storage = params.get("storage", {})
     if not storage or type(storage) != dict:
         logger.error(f"[ScanerError] cannot scan proxies bcause storage config is invalidate")
@@ -354,7 +348,6 @@ def scan(params: dict) -> list:
     pushtool = push.get_instance(config=push.PushConfig.from_dict(storage))
 
     if not pushtool.validate(config=persist) or not config or type(config) != dict or not config.get("push_to"):
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         logger.error(f"[ScanerError] cannot scan proxies bcause missing some parameters")
         return []
 
@@ -362,24 +355,12 @@ def scan(params: dict) -> list:
     proxies = list(itertools.chain.from_iterable(results))
     if proxies:
         content = yaml.dump(data={"proxies": proxies}, allow_unicode=True)
-<<<<<<< HEAD
-        pushtool.push_to(
-            content=content,
-            push_conf=persist,
-            group="scaner",
-        )
-=======
         pushtool.push_to(content=content, config=persist, group="scaner")
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     else:
         domains = ",".join(x[0] for x in tasks)
         logger.info(f"[ScanerError] cannot found any proxies, domains=[{domains}]")
 
-<<<<<<< HEAD
-    config["sub"] = [pushtool.raw_url(push_conf=persist)]
-=======
     config["sub"] = [pushtool.raw_url(config=persist)]
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     config["name"] = "loophole" if not config.get("name", "") else config.get("name")
     config["push_to"] = list(set(config["push_to"]))
     config["saved"] = True

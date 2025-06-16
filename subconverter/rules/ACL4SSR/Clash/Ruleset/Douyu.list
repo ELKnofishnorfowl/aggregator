@@ -1,11 +1,4 @@
 # 内容：Douyu 斗鱼
-<<<<<<< HEAD
-# 数量：4条
-DOMAIN-SUFFIX,douyu.com
-DOMAIN-SUFFIX,douyu.tv
-DOMAIN-SUFFIX,douyuscdn.com
-DOMAIN-SUFFIX,douyutv.com
-=======
 # 数量：6条
 DOMAIN-SUFFIX,bytefcdnrd.com
 DOMAIN-SUFFIX,douyu.com
@@ -13,4 +6,3 @@ DOMAIN-SUFFIX,douyu.tv
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,edgesrv.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

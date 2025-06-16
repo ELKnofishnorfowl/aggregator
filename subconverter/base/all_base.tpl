@@ -5,11 +5,7 @@ socks-port: {{ default(global.clash.socks_port, "7891") }}
 allow-lan: {{ default(global.clash.allow_lan, "true") }}
 mode: Rule
 log-level: {{ default(global.clash.log_level, "info") }}
-<<<<<<< HEAD
-external-controller: :9090
-=======
 external-controller: {{ default(global.clash.external_controller, "127.0.0.1:9090") }}
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 {% if default(request.clash.dns, "") == "1" %}
 dns:
   enable: true
@@ -382,9 +378,6 @@ enhanced-mode-by-rule = true
         "rules": [],
         "auto_detect_interface": true
     },
-<<<<<<< HEAD
-    "experimental": {}
-=======
     "experimental": {
         "cache_file": {
             "enabled": true,
@@ -395,7 +388,6 @@ enhanced-mode-by-rule = true
             "external_ui": "dashboard"
         }
     }
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 }
 
 {% endif %}

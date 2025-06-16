@@ -3,10 +3,7 @@ PROCESS-NAME,Music
 USER-AGENT,Music*
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN,aod.itunes.apple.com
-<<<<<<< HEAD
-=======
 DOMAIN,aod-ssl.itunes.apple.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN,audio.itunes.apple.com
 DOMAIN,audio-ssl.itunes.apple.com
 DOMAIN,mvod.itunes.apple.com

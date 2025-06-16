@@ -1,17 +1,10 @@
 # > Google Drive
-<<<<<<< HEAD
-=======
 PROCESS-NAME,Backup and Sync
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
 USER-AGENT,Google.Drive*
 USER-AGENT,*com.google.Drive*
 DOMAIN-SUFFIX,docs.google.com
 DOMAIN-SUFFIX,drive.google.com
 DOMAIN-SUFFIX,googledrive.com
-<<<<<<< HEAD
-DOMAIN-SUFFIX,googleusercontent.com
-=======
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN,www.googleapis.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

@@ -1,11 +1,4 @@
 # Streaming Media
-<<<<<<< HEAD
-# (Podcast)
-# > Himalaya
-USER-AGENT,Himalaya*
-DOMAIN-SUFFIX,himalaya.com
-# (Music)
-=======
 
 # (Live)
 # > Twitch
@@ -18,7 +11,6 @@ DOMAIN-SUFFIX,twitchcdn.net
 # > Apple Music Radio
 DOMAIN,radio.itunes.apple.com
 DOMAIN,tv.applemusic.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Deezer
 USER-AGENT,Deezer*
 DOMAIN-SUFFIX,deezer.com
@@ -54,8 +46,6 @@ DOMAIN-SUFFIX,tidal.com
 # > YouTubeMusic
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
-<<<<<<< HEAD
-=======
 
 # (Podcast)
 # > Himalaya
@@ -65,7 +55,6 @@ DOMAIN-SUFFIX,himalaya.com
 USER-AGENT,Overcast*
 DOMAIN-SUFFIX,overcast.fm
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # (Video)
 # > AbemaTV
 USER-AGENT,AbemaTV*
@@ -95,18 +84,12 @@ DOMAIN,dmqdd6hw24ucf.cloudfront.net
 DOMAIN,d22qjgkvxw22r6.cloudfront.net
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net
 DOMAIN,d27xxe7juh1us6.cloudfront.net
-<<<<<<< HEAD
-=======
 # DOMAIN,www.amazon.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-KEYWORD,avoddashs
 # > Apple TV
 DOMAIN,linear.tv.apple.com
 DOMAIN,play-edge.itunes.apple.com
-<<<<<<< HEAD
-=======
 DOMAIN,uts-api.itunes.apple.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Bahamut
 USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
@@ -120,17 +103,12 @@ DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 # > bilibili Intl
-<<<<<<< HEAD
-DOMAIN-SUFFIX,app.biliintl.com
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-=======
 DOMAIN-SUFFIX,biliintl.com
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,p.bstarstatic.com
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > DAZN
 USER-AGENT,DAZN*
 DOMAIN-SUFFIX,dazn.com
@@ -209,8 +187,6 @@ USER-AGENT,ITV_Player*
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 DOMAIN,itvpnpmobile-a.akamaihd.net
-<<<<<<< HEAD
-=======
 # > iQIYI
 DOMAIN-SUFFIX,iq.com
 DOMAIN,intl.iqiyi.com
@@ -231,7 +207,6 @@ IP-CIDR,210.71.227.200/32,no-resolve
 IP-CIDR,210.71.227.202/32,no-resolve
 IP-CIDR,210.201.32.8/32,no-resolve
 IP-CIDR,210.201.32.11/32,no-resolve
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > KKTV
 USER-AGENT,KKTV*
 USER-AGENT,com.kktv.ios.kktv*
@@ -245,12 +220,9 @@ DOMAIN,d3c7rimkq79yfu.cloudfront.net
 # > LiTV
 DOMAIN-SUFFIX,litv.tv
 DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-<<<<<<< HEAD
-=======
 # > MangoTV(芒果TV国际)
 DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN,mobileso.bz.mgtv.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > My5
 USER-AGENT,My5*
 DOMAIN-SUFFIX,channel5.com
@@ -319,12 +291,9 @@ DOMAIN,link.theplatform.com
 # > PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
-<<<<<<< HEAD
-=======
 # > Peacock
 USER-AGENT,PeacockMobile*
 DOMAIN-SUFFIX,peacocktv.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
@@ -349,14 +318,6 @@ DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,TVer-Release*
 DOMAIN-SUFFIX,tver.jp
 DOMAIN,edge.api.brightcove.com
-<<<<<<< HEAD
-# > Twitch
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,twitchcdn.net
-=======
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > ViuTV
 USER-AGENT,Viu*
 DOMAIN-SUFFIX,viu.com
@@ -365,14 +326,11 @@ DOMAIN,api.viu.now.com
 DOMAIN,d1k2us671qcoau.cloudfront.net
 DOMAIN,d2anahhhmp1ffz.cloudfront.net
 DOMAIN,dfp6rglgjqszk.cloudfront.net
-<<<<<<< HEAD
-=======
 # > WeTV
 USER-AGENT,WeTV*
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
 IP-CIDR,150.109.28.51/32,no-resolve
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > YouTube
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,YouTube*

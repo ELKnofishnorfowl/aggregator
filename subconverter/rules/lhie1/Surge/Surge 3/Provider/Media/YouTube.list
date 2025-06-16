@@ -1,13 +1,6 @@
 # > Youtube
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
-<<<<<<< HEAD
-DOMAIN-KEYWORD,youtube
-DOMAIN,yt3.ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,youtu.be
-=======
 
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt1.com
@@ -173,5 +166,4 @@ DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtube-ui.l.google.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,yt3.ggpht.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,ytimg.com

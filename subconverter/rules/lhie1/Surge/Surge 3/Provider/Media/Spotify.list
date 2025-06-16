@@ -1,15 +1,7 @@
 # > Spotify
 USER-AGENT,Spotify*
-<<<<<<< HEAD
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.net
-=======
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
 DOMAIN-SUFFIX,spotilocal.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

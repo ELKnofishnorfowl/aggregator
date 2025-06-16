@@ -1,8 +1,5 @@
 # > Apple TV
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,play-edge.itunes.apple.com
-<<<<<<< HEAD
-=======
 DOMAIN,uts-api.itunes.apple.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,tv.apple.com

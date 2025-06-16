@@ -1,9 +1,5 @@
 # 内容：Download
-<<<<<<< HEAD
-# 数量：21条
-=======
 # 数量：22条
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-KEYWORD,aria2
 DOMAIN-SUFFIX,smtp
 PROCESS-NAME,DownloadService.exe
@@ -24,9 +20,5 @@ URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
 URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 URL-REGEX,(Subject|HELO|SMTP)
-<<<<<<< HEAD
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-=======
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
 URL-REGEX,assets\d+\.xboxlive\.(com|cn)
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

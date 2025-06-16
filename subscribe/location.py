@@ -6,26 +6,16 @@
 import json
 import math
 import os
-<<<<<<< HEAD
-import re
-import socket
-=======
 import random
 import re
 import socket
 import subprocess
 import sys
 import time
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 import urllib
 from collections import defaultdict
 
 import utils
-<<<<<<< HEAD
-from geoip2 import database
-from logger import logger
-
-=======
 import yaml
 from executable import which_bin
 from geoip2 import database
@@ -285,7 +275,6 @@ ISO_TO_CHINESE = {
     "ZW": "津巴布韦",
 }
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 def download_mmdb(repo: str, target: str, filepath: str, retry: int = 3) -> bool:
     """
@@ -368,11 +357,7 @@ def download(url: str, filepath: str, filename: str, retry: int = 3) -> bool:
 
 
 def load_mmdb(
-<<<<<<< HEAD
-    directory: str, repo: str = "alecthw/mmdb_china_ip_list", filename: str = "Country.mmdb", update: bool = False
-=======
     directory: str, repo: str = "Loyalsoldier/geoip", filename: str = "Country.mmdb", update: bool = False
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 ) -> database.Reader:
     filepath = os.path.join(directory, filename)
     if update or not os.path.exists(filepath) or not os.path.isfile(filepath):
@@ -382,9 +367,6 @@ def load_mmdb(
     return database.Reader(filepath)
 
 
-<<<<<<< HEAD
-def rename(proxy: dict, reader: database.Reader) -> dict:
-=======
 def query_ip_country(ip: str, reader: database.Reader) -> str:
     """
     Query country information for an IP address using mmdb database
@@ -430,7 +412,6 @@ def query_ip_country(ip: str, reader: database.Reader) -> str:
 
 
 def locate_by_geoip(proxy: dict, reader: database.Reader) -> dict:
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     if not proxy or not isinstance(proxy, dict):
         return None
 
@@ -440,31 +421,6 @@ def locate_by_geoip(proxy: dict, reader: database.Reader) -> dict:
         return proxy
 
     try:
-<<<<<<< HEAD
-        ip = socket.gethostbyname(address)
-
-        # fake ip
-        if ip.startswith("198.18.0."):
-            logger.warning("cannot get geolocation and rename because IP address is faked")
-            return proxy
-
-        name = proxy.get("name", "")
-        response = reader.country(ip)
-        country = response.country.names.get("zh-CN", "")
-
-        if country == "中国":
-            # TODO: may be a transit node, need to further confirm landing ip address
-            text = re.sub(r"^[\U0001F1E6-\U0001F1FF]{2}", "", name, flags=re.I).strip()
-            name = re.sub(r"-?(\d+|(\d+|\s+|(\d+)?-\d+)[A-Z])$", "", text, flags=re.I).strip()
-            if not name:
-                name = country
-        elif country:
-            name = country
-
-        proxy["name"] = name
-    except Exception:
-        logger.error(f"query ip geolocation failed, address: {address}")
-=======
         if reader is None:
             logger.error("MMDB reader is None, cannot query geolocation")
             return proxy
@@ -479,13 +435,10 @@ def locate_by_geoip(proxy: dict, reader: database.Reader) -> dict:
             logger.warning(f"cannot get geolocation and rename, address: {address}")
     except Exception as e:
         logger.error(f"query ip geolocation failed, address: {address}, error: {str(e)}")
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
     return proxy
 
 
-<<<<<<< HEAD
-=======
 # Cache for checked port statuses
 _PORT_STATUS_CACHE = {}
 _AVAILABLE_PORTS = set()
@@ -871,7 +824,6 @@ def locate_by_ipinfo(name: str, port: int, reader: database.Reader = None) -> di
     return result
 
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 def regularize(
     proxies: list[dict],
     directory: str = "",
@@ -889,19 +841,6 @@ def regularize(
         if not directory:
             directory = os.path.join(os.path.abspath(os.path.dirname(os.path.dirname(__file__))), "data")
 
-<<<<<<< HEAD
-        # repo, filename = "PrxyHunter/GeoLite2", "GeoLite2-Country.mmdb"
-        repo, filename = "alecthw/mmdb_china_ip_list", "Country.mmdb"
-
-        # load mmdb
-        reader = load_mmdb(repo=repo, directory=directory, filename=filename, update=update)
-        if reader:
-            tasks = [[p, reader] for p in proxies if p and isinstance(p, dict)]
-            proxies = utils.multi_thread_run(rename, tasks, num_threads, show_progress, "")
-        else:
-            logger.error(f"skip rename proxies due to cannot load mmdb: {filename}")
-
-=======
         repo, filename = "Loyalsoldier/geoip", "Country.mmdb"
 
         # Load mmdb
@@ -1013,7 +952,6 @@ def rename(proxies: list[dict], digits: int = 2, shuffle: bool = False) -> list[
     if not proxies or not isinstance(proxies, list):
         return []
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     records = defaultdict(list)
     for proxy in proxies:
         name = re.sub(r"-?(\d+|(\d+|\s+|(\d+)?-\d+)[A-Z])$", "", proxy.get("name", "")).strip()
@@ -1033,11 +971,8 @@ def rename(proxies: list[dict], digits: int = 2, shuffle: bool = False) -> list[
             node["name"] = f"{name} {str(index+1).zfill(n)}"
             results.append(node)
 
-<<<<<<< HEAD
-=======
     if shuffle:
         for _ in range(3):
             random.shuffle(results)
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     return results

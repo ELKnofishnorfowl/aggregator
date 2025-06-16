@@ -100,9 +100,6 @@
         "rules": [],
         "auto_detect_interface": true
     },
-<<<<<<< HEAD
-    "experimental": {}
-=======
     "experimental": {
         "cache_file": {
             "enabled": true,
@@ -113,5 +110,4 @@
             "external_ui": "dashboard"
         }
     }
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 }

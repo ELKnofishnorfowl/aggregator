@@ -21,10 +21,7 @@ DOMAIN-SUFFIX,teddysun.com
 DOMAIN-SUFFIX,tumbex.com
 DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,unsplash.com
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,buzzsprout.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # 国外域名
 DOMAIN-SUFFIX,eu
@@ -193,11 +190,6 @@ DOMAIN-KEYWORD,uk-live
 DOMAIN-SUFFIX,bbc.co
 DOMAIN-SUFFIX,bbc.com
 
-<<<<<<< HEAD
-# Developer 开发者常用国外网站、镜像和论坛
-DOMAIN-SUFFIX,apache.org
-DOMAIN-SUFFIX,docker.com
-=======
 # Claude
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
@@ -206,7 +198,6 @@ DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,elastic.co
 DOMAIN-SUFFIX,elastic.com
 DOMAIN-SUFFIX,gcr.io
@@ -225,8 +216,6 @@ DOMAIN-SUFFIX,spring.io
 DOMAIN-SUFFIX,spring.net
 DOMAIN-SUFFIX,stackoverflow.com
 
-<<<<<<< HEAD
-=======
 # Docker
 DOMAIN,d1q6f0aelx0por.cloudfront.net
 DOMAIN,d2wy8f7a9ursnm.cloudfront.net
@@ -236,7 +225,6 @@ DOMAIN-SUFFIX,docker.com
 DOMAIN-SUFFIX,docker.io
 DOMAIN-SUFFIX,dockerhub.com
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # Discord
 DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
@@ -322,12 +310,9 @@ DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagr.am
 
-<<<<<<< HEAD
-=======
 # Iwara
 DOMAIN-SUFFIX,iwara.tv
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # Kakao Talk
 DOMAIN-SUFFIX,kakao.com
 DOMAIN-SUFFIX,kakao.co.kr
@@ -403,10 +388,7 @@ DOMAIN-SUFFIX,ypncdn.com
 # Pixiv
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,fanbox.cc
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # Spark
 DOMAIN-SUFFIX,amplitude.com
@@ -450,10 +432,7 @@ DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.org
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,x.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # Telegram
 DOMAIN-SUFFIX,t.me
@@ -504,13 +483,10 @@ DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
 
-<<<<<<< HEAD
-=======
 # Zoom
 DOMAIN-SUFFIX,zoom.us
 DOMAIN-SUFFIX,zoomgov.com
 
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 #飞流直播
 DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,icntv.xyz

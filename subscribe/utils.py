@@ -230,21 +230,6 @@ def encoding_url(url: str) -> str:
 
     url = url.strip()
 
-<<<<<<< HEAD
-    # 正则匹配中文汉字
-    cn_chars = re.findall("[\u4e00-\u9fa5]+", url)
-    if not cn_chars:
-        return url
-
-    # 遍历进行 punycode 编码
-    punycodes = list(map(lambda x: "xn--" + x.encode("punycode").decode("utf-8"), cn_chars))
-
-    # 对原 url 进行替换
-    for c, pc in zip(cn_chars, punycodes):
-        url = url[: url.find(c)] + pc + url[url.find(c) + len(c) :]
-
-    return url
-=======
     # 解析URL获取各个部分
     try:
         result = urllib.parse.urlparse(url)
@@ -301,7 +286,6 @@ def encoding_url(url: str) -> str:
     except Exception as e:
         logger.error(f"Error encoding URL: {url}, error: {str(e)}")
         return url
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 
 def write_file(filename: str, lines: list) -> bool:

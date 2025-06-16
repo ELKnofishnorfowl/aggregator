@@ -1,8 +1,5 @@
 # > Scholar
-<<<<<<< HEAD
-=======
 DOMAIN,scholar.google.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,acs.org
 DOMAIN-SUFFIX,aip.org
@@ -40,10 +37,7 @@ DOMAIN-SUFFIX,jhu.edu
 DOMAIN-SUFFIX,jstor.org
 DOMAIN-SUFFIX,karger.com
 DOMAIN-SUFFIX,libguides.com
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,liebertpub.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mdpi.com
 DOMAIN-SUFFIX,mpg.de
@@ -62,19 +56,12 @@ DOMAIN-SUFFIX,pnas.org
 DOMAIN-SUFFIX,proquest.com
 DOMAIN-SUFFIX,readcube.com
 DOMAIN-SUFFIX,researchgate.net
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,royalsocietypublishing.org
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,rsc.org
 DOMAIN-SUFFIX,sagepub.com
 DOMAIN-SUFFIX,sci-hub.tw
 DOMAIN-SUFFIX,sciencedirect.com
-<<<<<<< HEAD
-DOMAIN-SUFFIX,sciencemag.org
-=======
 DOMAIN-SUFFIX,science.org
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,scitation.org
 DOMAIN-SUFFIX,scopus.com
 DOMAIN-SUFFIX,semanticscholar.org

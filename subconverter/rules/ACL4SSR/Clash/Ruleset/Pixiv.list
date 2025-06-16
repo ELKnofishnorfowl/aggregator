@@ -1,9 +1,5 @@
 # 内容：Pixiv
-<<<<<<< HEAD
-# 数量：2条
-=======
 # 数量：3条
 DOMAIN-SUFFIX,fanbox.cc
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,pixiv.net
 DOMAIN-SUFFIX,pximg.net

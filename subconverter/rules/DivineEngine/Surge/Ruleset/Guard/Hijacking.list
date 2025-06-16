@@ -93,10 +93,7 @@ DOMAIN-SUFFIX,taoggou.com
 DOMAIN-SUFFIX,tcxshop.com
 DOMAIN-SUFFIX,tjqonline.cn
 DOMAIN-SUFFIX,topitme.com
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,tt114.net
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,tt3sm4.cn
 DOMAIN-SUFFIX,tuia.cn
 DOMAIN-SUFFIX,tuipenguin.com
@@ -185,11 +182,8 @@ DOMAIN,geo2.adobe.com
 # https://www.zhihu.com/question/46746200
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,abbyychina.com
-<<<<<<< HEAD
-=======
 DOMAIN-SUFFIX,alienskins.cn
 DOMAIN-SUFFIX,anydeskchina.cn
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,bartender.cc
 DOMAIN-SUFFIX,betterzip.net
 DOMAIN-SUFFIX,betterzipcn.com
@@ -206,13 +200,6 @@ DOMAIN-SUFFIX,earmasterchina.cn
 DOMAIN-SUFFIX,easyrecoverychina.com
 DOMAIN-SUFFIX,ediuschina.com
 DOMAIN-SUFFIX,flstudiochina.com
-<<<<<<< HEAD
-DOMAIN-SUFFIX,formysql.com
-DOMAIN-SUFFIX,guitarpro.cc
-DOMAIN-SUFFIX,huishenghuiying.com.cn
-DOMAIN-SUFFIX,hypersnap.net
-DOMAIN-SUFFIX,iconworkshop.cn
-=======
 DOMAIN-SUFFIX,folxchina.cn
 DOMAIN-SUFFIX,formysql.com
 DOMAIN-SUFFIX,guitarpro.cc
@@ -222,7 +209,6 @@ DOMAIN-SUFFIX,hypersnap.net
 DOMAIN-SUFFIX,iconworkshop.cn
 DOMAIN-SUFFIX,idmchina.net
 DOMAIN-SUFFIX,imazingchina.com
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,imindmap.cc
 DOMAIN-SUFFIX,jihehuaban.com.cn
 DOMAIN-SUFFIX,keyshot.cc

@@ -1,12 +1,7 @@
 # > bilibili Intl
-<<<<<<< HEAD
-DOMAIN-SUFFIX,app.biliintl.com
-DOMAIN,upos-bstar-mirrorakam.akamaized.net
-=======
 DOMAIN-SUFFIX,biliintl.com
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,p.bstarstatic.com
 DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

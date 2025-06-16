@@ -132,12 +132,6 @@ def collect_subs(params: dict) -> list[dict]:
         return []
 
     # used to store subscriptions
-<<<<<<< HEAD
-    persist = params.get("persist", {})
-
-    pushtool = push.get_instance(engine=params.get("engine", ""))
-    if not pushtool.validate(persist):
-=======
     storage = params.get("storage", {})
     if not storage or type(storage) != dict:
         logger.error(f"[GithubFork] cannot fetch subscriptions due to invalid storage config")
@@ -146,7 +140,6 @@ def collect_subs(params: dict) -> list[dict]:
     persist = storage.get("items", {})
     pushtool = push.get_instance(config=push.PushConfig.from_dict(storage))
     if not pushtool.validate(config=persist):
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         logger.error(f"[GithubFork] cannot fetch subscriptions due to invalid persist config")
         return []
 
@@ -166,11 +159,7 @@ def collect_subs(params: dict) -> list[dict]:
     materials, tasks = {}, []
 
     # load old subscriptions
-<<<<<<< HEAD
-    content = utils.http_get(url=pushtool.raw_url(persist), timeout=30)
-=======
     content = utils.http_get(url=pushtool.raw_url(config=persist), timeout=30)
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     urls = re.findall(r"^https?:\/\/[^\s]+", content, flags=re.M)
     for url in urls:
         url = github_warp(ghproxy=ghproxy, url=url)
@@ -264,10 +253,6 @@ def collect_subs(params: dict) -> list[dict]:
     # save result
     if effective_subs:
         content = "\n".join(effective_subs)
-<<<<<<< HEAD
-        pushtool.push_to(content=content, push_conf=persist, group="gitfork")
-=======
         pushtool.push_to(content=content, config=persist, group="gitfork")
->>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
     return [] if only_sublink else [materials.get(k) for k in effective_subs]
