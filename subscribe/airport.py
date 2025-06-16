@@ -514,7 +514,10 @@ class AirPort:
         retry: int,
         rate: float,
         bin_name: str,
+<<<<<<< HEAD
         tag: str,
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         disable_insecure: bool = False,
         udp: bool = True,
         ignore_exclude: bool = False,
@@ -675,9 +678,12 @@ class AirPort:
                 name = re.sub(r"\s+(\d+)[\s_\-\|]+([A-Za-z])\b", r"-\1\2", name)
                 item["name"] = re.sub(r"(-\d+[A-Za-z])+$", "", name).upper()
 
+<<<<<<< HEAD
                 if "" != tag.strip():
                     item["name"] = tag.strip().upper() + "-" + item["name"]
 
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
                 # 方便过滤无效订阅
                 item["sub"] = self.sub
                 item["liveness"] = self.liveness
@@ -688,7 +694,11 @@ class AirPort:
                     if "tls" in item:
                         item["tls"] = True
 
+<<<<<<< HEAD
                 if udp and "udp" not in item:
+=======
+                if udp and "udp" not in item and (item.get("type", "") != "snell" or int(item.get("version", 1)) == 3):
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
                     item["udp"] = True
 
                 proxies.append(item)
@@ -703,7 +713,11 @@ class AirPort:
     @staticmethod
     def check_protocol(link: str) -> bool:
         return re.match(
+<<<<<<< HEAD
             r"^(vmess|trojan|ss|ssr|vless|hysteria|hysteria2|tuic|snell)://[a-zA-Z0-9:.?+=@%&#_\-/]{10,}",
+=======
+            r"^(vmess|trojan|ss|ssr|vless|hysteria|hysteria2|tuic|snell|anytls)://[a-zA-Z0-9:.?+=@%&#_\-/]{10,}",
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
             utils.trim(link).replace("\r", ""),
             flags=re.I,
         )

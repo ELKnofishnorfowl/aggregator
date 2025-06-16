@@ -121,9 +121,16 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN,outlook.office365.com
 DOMAIN,smtp.office365.com
 # >> Windows Server Update Services
+<<<<<<< HEAD
 DOMAIN-SUFFIX,windowsupdate.microsoft.com
 DOMAIN-SUFFIX,update.microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
+=======
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN,download.microsoft.com
 DOMAIN,wustat.windows.com
 DOMAIN,ntservicepack.microsoft.com
@@ -138,6 +145,10 @@ DOMAIN-SUFFIX,163yun.com
 DOMAIN-SUFFIX,lofter.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,ydstatic.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,youdao.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > PayPal
 USER-AGENT,PayPal*
 DOMAIN-SUFFIX,paypal.com
@@ -173,6 +184,10 @@ DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,qqmail.com
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tencent.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,tencent-cloud.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,tencent-cloud.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,wechat.com
@@ -262,6 +277,10 @@ DOMAIN-SUFFIX,chaoxing.com
 DOMAIN-SUFFIX,chinaso.com
 DOMAIN-SUFFIX,chuimg.com
 DOMAIN-SUFFIX,chunyu.mobi
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,cibntv.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,coolapk.com
@@ -287,6 +306,10 @@ DOMAIN-SUFFIX,geilicdn.com
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,godic.net
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,heweather.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hongxiu.com
 DOMAIN-SUFFIX,hostbuf.com
@@ -305,8 +328,11 @@ DOMAIN-SUFFIX,kaspersky-labs.com
 DOMAIN-SUFFIX,keepcdn.com
 DOMAIN-SUFFIX,kkmh.com
 DOMAIN-SUFFIX,lanzous.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,linkedin.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,luojilab.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,maoyun.tv
@@ -320,8 +346,13 @@ DOMAIN-SUFFIX,ntp.org
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,oracle.com
 DOMAIN-SUFFIX,plex.tv
+<<<<<<< HEAD
 DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qidian.com
+=======
+DOMAIN-SUFFIX,qidian.com
+DOMAIN-SUFFIX,qweather.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,qyer.com
 DOMAIN-SUFFIX,qyerstatic.com
 DOMAIN-SUFFIX,raychase.net
@@ -329,7 +360,11 @@ DOMAIN-SUFFIX,ronghub.com
 DOMAIN-SUFFIX,ruguoapp.com
 DOMAIN-SUFFIX,sankuai.com
 DOMAIN-SUFFIX,scomper.me
+<<<<<<< HEAD
 DOMAIN-SUFFIX,seafile.com
+=======
+DOMAIN-SUFFIX,shouqianba.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snapdrop.net
@@ -359,4 +394,8 @@ DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhuihd.com
 
 DOMAIN,download.jetbrains.com
+<<<<<<< HEAD
 DOMAIN,images-cn.ssl-images-amazon.com
+=======
+DOMAIN,images-cn.ssl-images-amazon.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

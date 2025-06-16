@@ -58,7 +58,11 @@ def assign(
 
         if username and gist_id and access_token:
             push_tool = push.PushToGist(token=access_token)
+<<<<<<< HEAD
             url = push_tool.raw_url(push_conf={"username": username, "gistid": gist_id, "filename": filename})
+=======
+            url = push_tool.raw_url(config={"username": username, "gistid": gist_id, "filename": filename})
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
             content = utils.http_get(url=url, timeout=30)
             items = re.findall(pattern, content, flags=re.M)
@@ -386,7 +390,11 @@ def aggregate(args: argparse.Namespace) -> None:
 
     # 如有必要，上传至 Gist
     if gist_id and access_token:
+<<<<<<< HEAD
         files, push_conf = {}, {"gistid": gist_id, "filename": list(records.keys())[0]}
+=======
+        files, config = {}, {"gistid": gist_id, "filename": list(records.keys())[0]}
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
         for k, v in records.items():
             if os.path.exists(v) and os.path.isfile(v):
@@ -400,7 +408,11 @@ def aggregate(args: argparse.Namespace) -> None:
             push_client = push.PushToGist(token=access_token)
 
             # 上传
+<<<<<<< HEAD
             success = push_client.push_to(content="", push_conf=push_conf, payload={"files": files}, group="collect")
+=======
+            success = push_client.push_to(content="", config=config, payload={"files": files}, group="collect")
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
             if success:
                 logger.info(f"upload proxies and subscriptions to gist successed")
             else:

@@ -1,4 +1,5 @@
 # 内容：AbemaTV
+<<<<<<< HEAD
 # 数量：9条
 USER-AGENT,AbemaTV*
 DOMAIN-KEYWORD,abematv.akamaized.net
@@ -9,3 +10,12 @@ DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 DOMAIN-SUFFIX,hayabusa.media
+=======
+# 数量：6条
+USER-AGENT,AbemaTV*
+DOMAIN-KEYWORD,abematv.akamaized.net
+DOMAIN-SUFFIX,abema.io
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,ameba.jp
+DOMAIN-SUFFIX,hayabusa.io
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

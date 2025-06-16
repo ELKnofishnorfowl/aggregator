@@ -64,4 +64,8 @@ DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,westlaw.com
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,worldbank.org
+<<<<<<< HEAD
 DOMAIN-SUFFIX,worldscientific.com
+=======
+DOMAIN-SUFFIX,worldscientific.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

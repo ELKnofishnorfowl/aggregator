@@ -100,5 +100,18 @@
         "rules": [],
         "auto_detect_interface": true
     },
+<<<<<<< HEAD
     "experimental": {}
+=======
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "dashboard"
+        }
+    }
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 }

@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+<<<<<<< HEAD
 // Hong Kong, Macau, Taiwan
+=======
+// Hong Kong,Macau,Taiwan
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 USER-AGENT,bili-inter*
 DOMAIN,apiintl.biliapi.net

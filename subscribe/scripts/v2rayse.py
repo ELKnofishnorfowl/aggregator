@@ -29,7 +29,11 @@ import subconverter
 from clash import QuotedStr, quoted_scalar
 
 # outbind type
+<<<<<<< HEAD
 SUPPORT_TYPE = ["ss", "ssr", "vmess", "trojan", "snell", "vless", "hysteria2", "hysteria", "http", "socks5"]
+=======
+SUPPORT_TYPE = ["ss", "ssr", "vmess", "trojan", "snell", "vless", "hysteria2", "hysteria", "http", "socks5", "anytls"]
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # date format
 DATE_FORMAT = "%Y-%m-%d %H:%M:%S"
@@ -176,7 +180,11 @@ def fetchone(
     proxies, subscriptions = [], []
 
     if not utils.isb64encode(content=content):
+<<<<<<< HEAD
         regex = r"(?:https?://)?(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d))|https://jmssub\.net/members/getsub\.php\?service=\d+&id=[a-zA-Z0-9\-]{36}(?:\S+)?"
+=======
+        regex = r"(?:https?://)?(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d)|(?:/(?:s|sub)/[a-zA-Z0-9]{32}))|https://jmssub\.net/members/getsub\.php\?service=\d+&id=[a-zA-Z0-9\-]{36}(?:\S+)?"
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         groups = re.findall(regex, content, flags=re.I)
         if groups:
             subscriptions = list(set([utils.url_complete(x) for x in groups if x]))
@@ -230,9 +238,17 @@ def fetch(params: dict) -> list:
         logger.error(f"[V2RaySE] skip collect data due to parameter 'url' missing")
         return []
 
+<<<<<<< HEAD
     persist = params.get("persist", {})
     pushtool = push.get_instance(engine=params.get("engine", ""))
     if not persist or type(persist) != dict or not pushtool.validate(persist.get("proxies", {})):
+=======
+    storage = params.get("storage", {})
+    pushtool = push.get_instance(config=push.PushConfig.from_dict(storage))
+
+    persist = storage.get("items", {})
+    if not persist or type(persist) != dict or not pushtool.validate(config=persist.get("proxies", {})):
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         logger.error(f"[V2RaySE] invalid persist config, please check it and try again")
         return []
 
@@ -249,7 +265,11 @@ def fetch(params: dict) -> list:
     proxies_store = persist.get("proxies", {})
     modified_store = persist.get("modified", {})
 
+<<<<<<< HEAD
     history_url = pushtool.raw_url(push_conf=modified_store)
+=======
+    history_url = pushtool.raw_url(config=modified_store)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     last = last_history(url=history_url, interval=interval)
 
     dates, manual = params.get("dates", []), True
@@ -337,7 +357,11 @@ def fetch(params: dict) -> list:
         # clean workspace
         workflow.cleanup(datapath, filenames=[source, dest, "generate.ini"])
 
+<<<<<<< HEAD
     success = pushtool.push_to(content=content or " ", push_conf=proxies_store, group="v2rayse")
+=======
+    success = pushtool.push_to(content=content or " ", config=proxies_store, group="v2rayse")
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     if not success:
         filename = os.path.join(os.path.dirname(datapath), "data", "v2rayse.txt")
         logger.error(f"[V2RaySE] failed to storage {len(proxies)} proxies, will save it to local file {filename}")
@@ -346,12 +370,21 @@ def fetch(params: dict) -> list:
         return tasks
 
     # save last modified time
+<<<<<<< HEAD
     if not manual and pushtool.validate(push_conf=modified_store):
         content = json.dumps({LAST_MODIFIED: begin})
         pushtool.push_to(content=content, push_conf=modified_store, group="modified")
 
     config = params.get("config", {})
     config["sub"] = pushtool.raw_url(push_conf=proxies_store)
+=======
+    if not manual and pushtool.validate(config=modified_store):
+        content = json.dumps({LAST_MODIFIED: begin})
+        pushtool.push_to(content=content, config=modified_store, group="modified")
+
+    config = params.get("config", {})
+    config["sub"] = pushtool.raw_url(config=proxies_store)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     config["saved"] = True
     config["name"] = "v2rayse" if not config.get("name", "") else config.get("name")
     config["push_to"] = list(set(config.get("push_to", [])))

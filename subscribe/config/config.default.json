@@ -11,7 +11,10 @@
             "push_to": [],
             "ignorede": true,
             "liveness": true,
+<<<<<<< HEAD
             "tag": "",
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
             "rate": 2.5,
             "count": 2,
             "coupon": "",
@@ -162,6 +165,11 @@
     },
     "storage": {
         "engine": "xxx",
+<<<<<<< HEAD
+=======
+        "base": "https://api.xxx.com",
+        "domain": "https://xxx.com",
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         "items": {
             "xxx-clash": {
                 "username": "",

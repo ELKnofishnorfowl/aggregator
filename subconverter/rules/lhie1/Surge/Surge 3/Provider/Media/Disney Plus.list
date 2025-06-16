@@ -1,4 +1,5 @@
 # > Disney Plus
+<<<<<<< HEAD
 USER-AGENT,Disney*
 DOMAIN-SUFFIX,adobedtm.com
 DOMAIN-SUFFIX,bam.nr-data.net
@@ -18,3 +19,13 @@ DOMAIN-SUFFIX,disney-portal.my.onetrust.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,js-agent.newrelic.com
+=======
+
+USER-AGENT,Disney*
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney.api.edge.bamgrid.com
+DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
+DOMAIN-SUFFIX,prod-static.disney-plus.net
+DOMAIN-SUFFIX,disney.content.edge.bamgrid.com
+DOMAIN-SUFFIX,prod-static.disney-plus.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

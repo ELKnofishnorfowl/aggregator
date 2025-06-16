@@ -1,21 +1,76 @@
 # 内容：国外媒体列表
+<<<<<<< HEAD
 # 更新：2023-08-20 11:28:35
 # 数量：367条
+=======
+# 更新：2025-03-29 17:35:36
+# 数量：406条
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # ABC
 DOMAIN-SUFFIX,edgedatg.com
 DOMAIN-SUFFIX,go.com
 
+<<<<<<< HEAD
 # AbemaTV
 USER-AGENT,AbemaTV*
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN,api-abematv.bucketeer.jp
 DOMAIN-SUFFIX,abema-tv.com
+=======
+# AI
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,openai
+DOMAIN,ai.google.dev
+DOMAIN,api.githubcopilot.com
+DOMAIN,api.groq.com
+DOMAIN,api.together.xyz
+DOMAIN,bard.google.com
+DOMAIN,console.groq.com
+DOMAIN,copilot-proxy.githubusercontent.com
+DOMAIN,gemini.google.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,sydney.bing.com
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,sora.com
+
+# AbemaTV
+USER-AGENT,AbemaTV*
+DOMAIN-KEYWORD,abematv.akamaized.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,abema.io
 DOMAIN-SUFFIX,abema.tv
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
+<<<<<<< HEAD
 DOMAIN-SUFFIX,hayabusa.media
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # All4
 USER-AGENT,All4*
@@ -155,7 +210,10 @@ DOMAIN-SUFFIX,hbonow.com
 
 # HBO_GO_HKG
 USER-AGENT,HBO%20GO%20PROD*
+<<<<<<< HEAD
 DOMAIN-KEYWORD,.hbogoasia.
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-KEYWORD,hbogoasia
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net
@@ -204,6 +262,12 @@ DOMAIN,itvpnpmobile-a.akamaihd.net
 DOMAIN-SUFFIX,itv.com
 DOMAIN-SUFFIX,itvstatic.com
 
+<<<<<<< HEAD
+=======
+# Iwara
+DOMAIN-SUFFIX,iwara.tv
+
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # JOOX
 USER-AGENT,JOOX*
 USER-AGENT,WeMusic*
@@ -339,12 +403,21 @@ DOMAIN-SUFFIX,olevodtv.com
 DOMAIN-KEYWORD,openai
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,chatgpt.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io

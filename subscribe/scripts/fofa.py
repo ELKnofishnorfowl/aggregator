@@ -65,7 +65,11 @@ def extract_one(url: str) -> list[str]:
     if not isurl(url=url):
         return []
 
+<<<<<<< HEAD
     regex = r"(?:https?://)?(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d))"
+=======
+    regex = r"(?:https?://)?(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d)|(?:/(?:s|sub)/[a-zA-Z0-9]{32}))"
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
     headers = {"User-Agent": "Clash.Meta; Mihomo"}
     subscriptions, content = [], ""

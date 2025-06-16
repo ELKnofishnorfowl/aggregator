@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // > iQiyi
 USER-AGENT,iQIYI*
 USER-AGENT,QYPlayer*
@@ -28,3 +29,16 @@ URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
 // DOMAIN,intl-passport.iqiyi.com
 // DOMAIN,intl-sns.iqiyi.com
 // DOMAIN,msg-intl.qy.net
+=======
+// > IQIYI
+USER-AGENT,*QIYI*
+USER-AGENT,iQiYi*
+DOMAIN-SUFFIX,iqiyi.com
+DOMAIN-SUFFIX,iqiyipic.com
+DOMAIN-SUFFIX,iq.com
+DOMAIN-SUFFIX,qy.net
+DOMAIN-SUFFIX,gitv.tv
+DOMAIN-SUFFIX,71.am
+DOMAIN-KEYWORD,qiyi
+DOMAIN,cache.video.iqiyi.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

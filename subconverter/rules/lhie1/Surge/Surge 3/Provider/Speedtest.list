@@ -5,6 +5,10 @@ DOMAIN-SUFFIX,fast.com
 USER-AGENT,SpeedTest*
 DOMAIN-KEYWORD,speedtest
 DOMAIN-SUFFIX,ooklaserver.net
+<<<<<<< HEAD
+=======
+DOMAIN,speed.dler.io
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # > Speed Test by Cloudflare
 DOMAIN-SUFFIX,speed.cloudflare.com

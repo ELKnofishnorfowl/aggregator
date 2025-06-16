@@ -116,6 +116,7 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
 
     datasets, peristedtasks = [], {}
     try:
+<<<<<<< HEAD
         persists = conf.get("persist", {})
         engine = persists.get("engine", "")
         subspushconf = persists.get("subs", {})
@@ -123,6 +124,16 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
 
         pushtool = push.get_instance(engine=engine)
         should_persist = pushtool.validate(push_conf=subspushconf)
+=======
+        storage = conf.get("storage", {})
+        persists = storage.get("items", {})
+
+        subspushconf = persists.get("subs", {})
+        linkspushconf = persists.get("proxies", {})
+
+        pushtool = push.get_instance(config=push.PushConfig.from_dict(storage))
+        should_persist = pushtool.validate(config=subspushconf)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
         # skip tasks if mode == 1 and not set persistence
         if mode == 1 and not should_persist:
             logger.warning(
@@ -132,7 +143,11 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
 
         # allow if persistence configuration is valid
         enable = conf.get("singlelink", False)
+<<<<<<< HEAD
         allow = enable and pushtool.validate(linkspushconf)
+=======
+        allow = enable and pushtool.validate(config=linkspushconf)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
         # save it to environment
         os.environ[SINGLE_PROXIES_ENV_NAME] = str(allow).lower()
@@ -241,7 +256,11 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
 
         # remain
         if should_persist:
+<<<<<<< HEAD
             url = pushtool.raw_url(push_conf=subspushconf)
+=======
+            url = pushtool.raw_url(config=subspushconf)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
             try:
                 url, content = url or "", ""
                 if not url.startswith(utils.FILEPATH_PROTOCAL):
@@ -266,7 +285,11 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
         if not records:
             if peristedtasks and should_persist and mode != 2:
                 content = json.dumps(peristedtasks)
+<<<<<<< HEAD
                 pushtool.push_to(content=content, push_conf=subspushconf, group="crawl")
+=======
+                pushtool.push_to(content=content, config=subspushconf, group="crawl")
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
             logger.debug("[CrawlInfo] cannot found any subscribe from Google/Telegram/Github and Page with crawler")
             return datasets
@@ -314,9 +337,15 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
             if len(proxies) > 0:
                 try:
                     content = base64.b64encode("\n".join(proxies).encode()).decode()
+<<<<<<< HEAD
                     success = pushtool.push_to(content=content, push_conf=linkspushconf, group="proxies")
                     if success:
                         singlelink = pushtool.raw_url(push_conf=linkspushconf)
+=======
+                    success = pushtool.push_to(content=content, config=linkspushconf, group="proxies")
+                    if success:
+                        singlelink = pushtool.raw_url(config=linkspushconf)
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
                         item = {
                             "name": "singlelink",
                             "sub": singlelink,
@@ -345,7 +374,11 @@ def batch_crawl(conf: dict, num_threads: int = 50, display: bool = True) -> list
 
             if rest:
                 content = json.dumps(survivors)
+<<<<<<< HEAD
                 pushtool.push_to(content=content, push_conf=subspushconf, group="crawl")
+=======
+                pushtool.push_to(content=content, config=subspushconf, group="crawl")
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
     except:
         logger.error("[CrawlError] crawl from web error")
         traceback.print_exc()
@@ -1081,9 +1114,17 @@ def extract_subscribes(
         return {}
     try:
         limits, collections, proxies = max(1, limits), {}, []
+<<<<<<< HEAD
         sub_regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d))|https://jmssub\.net/members/getsub\.php\?service=\d+&id=[a-zA-Z0-9\-]{36}(?:\S+)?"
         extra_regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+/sub\?(?:\S+)?target=\S+"
         protocal_regex = r"(?:vmess|trojan|ss|ssr|snell|hysteria2|vless|hysteria|tuic)://[a-zA-Z0-9:.?+=@%&#_\-/]{10,}"
+=======
+        sub_regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+(?:(?:(?:/index.php)?/api/v1/client/subscribe\?token=[a-zA-Z0-9]{16,32})|(?:/link/[a-zA-Z0-9]+\?(?:sub|mu|clash)=\d)|(?:/(?:s|sub)/[a-zA-Z0-9]{32}))|https://jmssub\.net/members/getsub\.php\?service=\d+&id=[a-zA-Z0-9\-]{36}(?:\S+)?"
+        extra_regex = r"https?://(?:[a-zA-Z0-9\u4e00-\u9fa5\-]+\.)+[a-zA-Z0-9\u4e00-\u9fa5\-]+/sub\?(?:\S+)?target=\S+"
+        protocal_regex = (
+            r"(?:vmess|trojan|ss|ssr|snell|hysteria2|vless|hysteria|tuic|anytls)://[a-zA-Z0-9:.?+=@%&#_\-/]{10,}"
+        )
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
         regex = f"{sub_regex}|{extra_regex}"
 

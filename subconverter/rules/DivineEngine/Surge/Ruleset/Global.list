@@ -10,17 +10,50 @@ DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 # > Apple
 DOMAIN,testflight.apple.com
+<<<<<<< HEAD
+=======
+# > Clubhouse
+DOMAIN-SUFFIX,clubhouseapi.com
+DOMAIN-SUFFIX,joinclubhouse.com
+DOMAIN,clubhouse.pubnubapi.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Crypto
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,bibox.com
 DOMAIN-SUFFIX,binance.cc
 DOMAIN-SUFFIX,binance.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,bitcointalk.org
 DOMAIN-SUFFIX,bitfinex.com
 DOMAIN-SUFFIX,bitmex.com
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,okex.com
+=======
+DOMAIN-SUFFIX,binance.us
+DOMAIN-SUFFIX,bitcointalk.org
+DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bithumb.com
+DOMAIN-SUFFIX,bitmex.com
+DOMAIN-SUFFIX,bitstamp.net
+DOMAIN-SUFFIX,bittrex.com
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,coinbase.com
+DOMAIN-SUFFIX,coincheck.com
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,coinone.co.kr
+DOMAIN-SUFFIX,ftx.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gemini.com
+DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,korbit.co.kr
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,liquid.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,poloniex.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,uniswap.org
 DOMAIN-SUFFIX,zb.com
 # > Discord
@@ -58,6 +91,10 @@ DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,getoutline.org
 DOMAIN-SUFFIX,gvt0.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,gvt1.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 DOMAIN-SUFFIX,ytimg.com
@@ -73,6 +110,7 @@ IP-CIDR,125.209.208.0/20,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
 IP-CIDR,203.104.144.0/21,no-resolve
 # > Microsoft
+<<<<<<< HEAD
 DOMAIN-SUFFIX,hotmail.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,live.net
@@ -80,6 +118,8 @@ DOMAIN-SUFFIX,livefilestore.com
 DOMAIN-SUFFIX,mesh.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,storage.msn.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
@@ -114,23 +154,39 @@ DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 # > Telegram
+<<<<<<< HEAD
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
+=======
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.org
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
 IP-CIDR,91.108.12.0/22,no-resolve
 IP-CIDR,91.108.16.0/22,no-resolve
 IP-CIDR,91.108.20.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
+<<<<<<< HEAD
 IP-CIDR,95.161.64.0/20,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
+=======
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
@@ -140,6 +196,7 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,vine.co
+<<<<<<< HEAD
 IP-CIDR,69.195.160.0/19,no-resolve
 IP-CIDR,104.244.42.0/21,no-resolve
 IP-CIDR,192.133.76.0/22,no-resolve
@@ -148,6 +205,8 @@ IP-CIDR,199.59.148.0/22,no-resolve
 IP-CIDR,199.96.56.0/21,no-resolve
 IP-CIDR,202.160.128.0/22,no-resolve
 IP-CIDR,209.237.192.0/19,no-resolve
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,wikileaks.org
 DOMAIN-SUFFIX,wikimapia.org
@@ -210,11 +269,16 @@ DOMAIN-SUFFIX,channelnewsasia.com
 DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,clarionproject.org
 DOMAIN-SUFFIX,cloudcone.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,clubhouseapi.com
 DOMAIN-SUFFIX,clyp.it
 DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,cnet.com
 DOMAIN-SUFFIX,cnn.com
+=======
+DOMAIN-SUFFIX,clyp.it
+DOMAIN-SUFFIX,cna.com.tw
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,comparitech.com
 DOMAIN-SUFFIX,conoha.jp
 DOMAIN-SUFFIX,crucial.com
@@ -306,7 +370,10 @@ DOMAIN-SUFFIX,japantimes.co.jp
 DOMAIN-SUFFIX,jiji.com
 DOMAIN-SUFFIX,jinx.com
 DOMAIN-SUFFIX,jkforum.net
+<<<<<<< HEAD
 DOMAIN-SUFFIX,joinclubhouse.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,joinmastodon.org
 DOMAIN-SUFFIX,justmysocks.net
 DOMAIN-SUFFIX,justpaste.it
@@ -332,6 +399,10 @@ DOMAIN-SUFFIX,mailchimp.com
 DOMAIN-SUFFIX,marc.info
 DOMAIN-SUFFIX,matters.news
 DOMAIN-SUFFIX,maying.co
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,medibang.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,mega.nz
 DOMAIN-SUFFIX,mergersandinquisitions.com
@@ -421,6 +492,10 @@ DOMAIN-SUFFIX,straitstimes.com
 DOMAIN-SUFFIX,streamable.com
 DOMAIN-SUFFIX,streema.com
 DOMAIN-SUFFIX,substack.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,substack.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,t66y.com
 DOMAIN-SUFFIX,tapatalk.com
 DOMAIN-SUFFIX,teco-hk.org
@@ -436,6 +511,10 @@ DOMAIN-SUFFIX,tineye.com
 DOMAIN-SUFFIX,tiny.cc
 DOMAIN-SUFFIX,tinyurl.com
 DOMAIN-SUFFIX,torproject.org
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,tradingview.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,tumblr.com
 DOMAIN-SUFFIX,turbobit.net
 DOMAIN-SUFFIX,tutanota.com
@@ -520,7 +599,10 @@ DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,godoc.org
+<<<<<<< HEAD
 DOMAIN-SUFFIX,golang.org
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gv.com
 DOMAIN-SUFFIX,gwtproject.org
@@ -543,6 +625,10 @@ DOMAIN-SUFFIX,webrtc.org
 DOMAIN-SUFFIX,whatbrowser.org
 DOMAIN-SUFFIX,widevine.com
 DOMAIN-SUFFIX,x.company
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,youtu.be
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 # > Telegram
@@ -550,6 +636,7 @@ DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telesco.pe
+<<<<<<< HEAD
 
 USER-AGENT,*youtube*
 USER-AGENT,YouTube*
@@ -559,6 +646,8 @@ DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
 
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Facebook
 DOMAIN-KEYWORD,.facebook.
 DOMAIN-SUFFIX,facebookmail.com
@@ -570,6 +659,7 @@ DOMAIN-SUFFIX,twitter.jp
 
 # (Region-Restricted Access Denied)
 # ---(Apple)---
+<<<<<<< HEAD
 # > Apple URL Shortener
 DOMAIN-SUFFIX,appsto.re
 # > iBooks Store download
@@ -587,11 +677,46 @@ DOMAIN,beta.music.apple.com
 # ------
 DOMAIN-SUFFIX,push.apple.com
 # > Others
+=======
+DOMAIN-SUFFIX,appsto.re // Apple URL Shortener
+DOMAIN,books.itunes.apple.com // iBooks Store download
+DOMAIN-SUFFIX,smoot.apple.com // Spotlight
+DOMAIN,beta.music.apple.com // Apple Music Web
+DOMAIN,lookup-api.apple.com // Look Up
+# > Web Preview
+DOMAIN,apps.apple.com
+DOMAIN,books.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,tv.apple.com
+# > Podcasts
+DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,bookkeeper.itunes.apple.com
+# > News
+DOMAIN,gateway.icloud.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-assets.apple.com
+DOMAIN,news-client.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,apple.comscoreresearch.com
+# ------
+# Google
+DOMAIN-SUFFIX,go.dev
+DOMAIN-SUFFIX,golang.org
+# > Others
+DOMAIN-SUFFIX,aicoin.com
+DOMAIN-SUFFIX,aimoon.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cccat.io
 DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,duboxcdn.com
 DOMAIN-SUFFIX,ifixit.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,linkedin.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,mangakakalot.com
 DOMAIN-SUFFIX,shopeemobile.com
 DOMAIN-SUFFIX,sushi.com
@@ -603,19 +728,26 @@ DOMAIN,appleid.apple.com
 DOMAIN,developer.apple.com
 DOMAIN,www.icloud.com
 DOMAIN,ocsp.apple.com
+<<<<<<< HEAD
 DOMAIN,xp.apple.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > DigiCert
 DOMAIN,cacerts.digicert.com
 DOMAIN,crl3.digicert.com
 DOMAIN,crl4.digicert.com
 DOMAIN,ocsp.digicert.com
 # > Others
+<<<<<<< HEAD
 DOMAIN-SUFFIX,en.ipip.net
 DOMAIN-SUFFIX,cloudcone.com.cn
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,inkbunny.net
 DOMAIN-SUFFIX,metapix.net
 DOMAIN-SUFFIX,s3.amazonaws.com
 DOMAIN-SUFFIX,zaobao.com.sg
+<<<<<<< HEAD
 DOMAIN,international-gfe.download.nvidia.com
 DOMAIN-SUFFIX,bugsnag.com
 
@@ -755,3 +887,6 @@ IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
 
 IP-CIDR,17.57.145.9/24,no-resolve
+=======
+DOMAIN,international-gfe.download.nvidia.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

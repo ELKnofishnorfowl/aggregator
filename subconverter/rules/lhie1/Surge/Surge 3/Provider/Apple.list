@@ -1,4 +1,9 @@
 # > Apple API
+<<<<<<< HEAD
+=======
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.com
@@ -23,6 +28,10 @@ IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
 
 # > Apple News
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,apple.comscoreresearch.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,apple.news
 
 # > Apple Maps

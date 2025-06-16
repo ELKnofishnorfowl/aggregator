@@ -1,5 +1,9 @@
 # 内容：Twitter
+<<<<<<< HEAD
 # 数量：11条
+=======
+# 数量：12条
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
@@ -10,4 +14,9 @@ DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
+<<<<<<< HEAD
 DOMAIN-SUFFIX,vine.co
+=======
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
+<<<<<<< HEAD
 # > 愛奇藝台灣站 & iQIYI
 DOMAIN-SUFFIX,iq.com
 DOMAIN,cache.video.iqiyi.com
@@ -24,3 +25,9 @@ DOMAIN-SUFFIX,api.mgtv.com
 # > WeTV
 DOMAIN-SUFFIX,wetv.vip
 DOMAIN-SUFFIX,wetvinfo.com
+=======
+# > 愛奇藝台灣站
+DOMAIN,cache.video.iqiyi.com
+IP-CIDR,116.211.202.206/32,no-resolve
+IP-CIDR,116.211.202.216/32,no-resolve
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

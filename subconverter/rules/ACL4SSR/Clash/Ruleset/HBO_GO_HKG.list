@@ -1,7 +1,12 @@
 # 内容：HBO_GO_HKG
+<<<<<<< HEAD
 # 数量：21条
 USER-AGENT,HBO%20GO%20PROD*
 DOMAIN-KEYWORD,.hbogoasia.
+=======
+# 数量：20条
+USER-AGENT,HBO%20GO%20PROD*
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-KEYWORD,hbogoasia
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,bcbolthboa-a.akamaihd.net

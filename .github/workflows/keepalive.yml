@@ -1,0 +1,32 @@
+name: Keepalive
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    name: Keepalive Workflow
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Run Keepalive Script
+        run: |
+          mkdir -p empty
+          cd empty
+          git init
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b dummy
+          touch empty
+          git add .
+          git commit -m "empty"
+          git remote add origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push -f -u origin dummy
+
+      - name: Record Timestamp
+        run: date "+%Y-%m-%d %H:%M:%S"

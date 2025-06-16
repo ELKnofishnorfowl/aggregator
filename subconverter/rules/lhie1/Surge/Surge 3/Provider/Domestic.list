@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # > Beplay
 DOMAIN-KEYWORD,beplay
 
@@ -8,6 +9,47 @@ DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,battlenet.com
 DOMAIN-SUFFIX,blizzard.com
 
+=======
+# China Banks
+# > Agricultural Bank of China
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,abchina.com.cn
+
+# > Bank of China
+DOMAIN-SUFFIX,boc.cn
+
+# > China Citic Bank
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,ecitic.com
+DOMAIN-SUFFIX,ecitic.net
+
+# > China Construction Bank
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,ccb.com.cn
+
+# > China Everbright Bank
+DOMAIN-SUFFIX,cebbank.com
+
+# > China Merchants Bank
+USER-AGENT,cmb*
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,cmbt.cn
+DOMAIN-SUFFIX,mbcloud.com
+
+# > Industrial and Commercial Bank of China
+USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
+DOMAIN-SUFFIX,icbc.com.cn
+
+# > Ping An Bank
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,pingan.com.cn
+
+# Type
+# > Beplay
+DOMAIN-KEYWORD,beplay
+
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Prior
 DOMAIN,client.amplifi.com
 DOMAIN,ip.bjango.com
@@ -20,9 +62,12 @@ DOMAIN-SUFFIX,zmzfile.com
 
 # > Sony
 USER-AGENT,RemotePlay*
+<<<<<<< HEAD
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
 DOMAIN-SUFFIX,playstationnetwork.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
@@ -39,6 +84,7 @@ IP-CIDR6,2a0b:b583::/48,no-resolve
 # > Tencent
 IP-CIDR,182.254.116.0/24,no-resolve
 
+<<<<<<< HEAD
 # > Tencent WeChat (International)
 IP-CIDR,101.32.96.0/20,DIRECT,no-resolve
 IP-CIDR,101.32.104.0/21,DIRECT,no-resolve
@@ -47,10 +93,18 @@ IP-CIDR,129.226.0.0/16,DIRECT,no-resolve
 IP-CIDR,183.128.0.0/11,DIRECT,no-resolve
 IP-CIDR,183.131.48.0/20,DIRECT,no-resolve
 
+=======
+DOMAIN-SUFFIX,10010.com
+DOMAIN-SUFFIX,10086.cn
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,12306.cn
 DOMAIN-SUFFIX,12306.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,189.cn
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,360.cn
 DOMAIN-SUFFIX,360.com
 DOMAIN-SUFFIX,360buy.com
@@ -59,6 +113,7 @@ DOMAIN-SUFFIX,36kr.com
 DOMAIN-SUFFIX,51ym.me
 DOMAIN-SUFFIX,58.com
 DOMAIN-SUFFIX,8686c.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,abercrombie.com
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,adobesc.com
@@ -66,6 +121,17 @@ DOMAIN-SUFFIX,air-matters.com
 DOMAIN-SUFFIX,air-matters.io
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,akadns.net
+=======
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,abercrombie.com
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,adobesc.com
+DOMAIN-SUFFIX,aiaa.org
+DOMAIN-SUFFIX,air-matters.com
+DOMAIN-SUFFIX,air-matters.io
+DOMAIN-SUFFIX,aixifan.com
+DOMAIN-SUFFIX,alibaba.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,alipay.com
@@ -76,35 +142,55 @@ DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,appshike.com
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,autonavi.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,aweme.snssdk.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,bababian.com
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,baidupcs.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,beatsbydre.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,broadcasthe.net
+=======
+DOMAIN-SUFFIX,bochk.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,caiyunapp.com
 DOMAIN-SUFFIX,ccgslb.com
 DOMAIN-SUFFIX,ccgslb.net
 DOMAIN-SUFFIX,chinacache.net
 DOMAIN-SUFFIX,chunbo.com
 DOMAIN-SUFFIX,chunboimg.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,clashroyaleapp.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,clouddn.com
 DOMAIN-SUFFIX,cloudsigma.com
 DOMAIN-SUFFIX,cloudxns.net
 DOMAIN-SUFFIX,cmct.tv
 DOMAIN-SUFFIX,cmfu.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,cnbeta.com
 DOMAIN-SUFFIX,cnbetacdn.com
 DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,cnlang.org
+=======
+DOMAIN-SUFFIX,chdbits.co
+DOMAIN-SUFFIX,cnlang.org
+DOMAIN-SUFFIX,coolapk.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,cz88.net
 DOMAIN-SUFFIX,dct-cloud.com
 DOMAIN-SUFFIX,didialift.com
 DOMAIN-SUFFIX,digicert.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,dler.cloud
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,douban.com
 DOMAIN-SUFFIX,doubanio.com
 DOMAIN-SUFFIX,douyin.com
@@ -115,12 +201,16 @@ DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,duoshuo.com
 DOMAIN-SUFFIX,dytt8.net
 DOMAIN-SUFFIX,easou.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,ecitic.com
 DOMAIN-SUFFIX,ecitic.net
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,eudic.net
 DOMAIN-SUFFIX,ewqcxz.com
 DOMAIN-SUFFIX,feng.com
 DOMAIN-SUFFIX,fir.im
+<<<<<<< HEAD
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,frdic.com
 DOMAIN-SUFFIX,fresh-ideas.cc
@@ -128,15 +218,33 @@ DOMAIN-SUFFIX,gameloft.com
 DOMAIN-SUFFIX,geetest.com
 DOMAIN-SUFFIX,godic.net
 DOMAIN-SUFFIX,goodread.com
+=======
+DOMAIN-SUFFIX,frdic.com
+DOMAIN-SUFFIX,fresh-ideas.cc
+DOMAIN-SUFFIX,gameloft.com
+DOMAIN-SUFFIX,garmin.com
+DOMAIN-SUFFIX,geetest.com
+DOMAIN-SUFFIX,godic.net
+DOMAIN-SUFFIX,goodread.com
+DOMAIN-SUFFIX,goofish.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,haibian.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,haosou.com
 DOMAIN-SUFFIX,hdchina.org
 DOMAIN-SUFFIX,hdcmct.org
+<<<<<<< HEAD
 DOMAIN-SUFFIX,hkserversolution.com
 DOMAIN-SUFFIX,hollisterco.com
 DOMAIN-SUFFIX,hongxiu.com
+=======
+DOMAIN-SUFFIX,hjfile.cn
+DOMAIN-SUFFIX,hkserversolution.com
+DOMAIN-SUFFIX,hollisterco.com
+DOMAIN-SUFFIX,hongxiu.com
+DOMAIN-SUFFIX,hujiang.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,hxcdn.net
 DOMAIN-SUFFIX,icedropper.com
 DOMAIN-SUFFIX,iciba.com
@@ -144,6 +252,10 @@ DOMAIN-SUFFIX,ifeng.com
 DOMAIN-SUFFIX,ifengimg.com
 DOMAIN-SUFFIX,images-amazon.com
 DOMAIN-SUFFIX,img4me.com
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,ipapark.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,ithome.com
 DOMAIN-SUFFIX,ixdzs.com
 DOMAIN-SUFFIX,jd.com
@@ -168,6 +280,10 @@ DOMAIN-SUFFIX,lucifr.com
 DOMAIN-SUFFIX,luoo.net
 DOMAIN-SUFFIX,lxdns.com
 DOMAIN-SUFFIX,mai.tn
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,meituan.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,meizu.com
 DOMAIN-SUFFIX,metatrader4.com
 DOMAIN-SUFFIX,metatrader5.com
@@ -184,7 +300,10 @@ DOMAIN-SUFFIX,myunlu.com
 DOMAIN-SUFFIX,ngabbs.com
 DOMAIN-SUFFIX,netease.com
 DOMAIN-SUFFIX,nfoservers.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,nssurge.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,ourdvs.com
@@ -192,7 +311,10 @@ DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,pgyer.com
 DOMAIN-SUFFIX,pniao.com
 DOMAIN-SUFFIX,privatehd.to
+<<<<<<< HEAD
 DOMAIN-SUFFIX,pstatp.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,qbox.me
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qdaily.com
@@ -211,14 +333,21 @@ DOMAIN-SUFFIX,rarbg.to
 DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,rrmj.tv
 DOMAIN-SUFFIX,ruguoapp.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,sandai.net
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,sinaapp.com
 DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-SUFFIX,sinaimg.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,sm.ms
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snssdk.com
+=======
+DOMAIN-SUFFIX,smzdm.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,snwx.com
 DOMAIN-SUFFIX,so.com
 DOMAIN-SUFFIX,sogou.com
@@ -233,6 +362,11 @@ DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tawk.link
 DOMAIN-SUFFIX,tawk.to
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,tencent-cloud.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tietuku.com
 DOMAIN-SUFFIX,tmall.com
@@ -249,20 +383,33 @@ DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,uxengine.net
 DOMAIN-SUFFIX,wandoujia.com
 DOMAIN-SUFFIX,weather.bjango.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,webqxs.com
+=======
+DOMAIN-SUFFIX,webqxs.com
+DOMAIN-SUFFIX,wechat.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weico.cc
 DOMAIN-SUFFIX,weiphone.com
 DOMAIN-SUFFIX,weiphone.net
+<<<<<<< HEAD
 DOMAIN-SUFFIX,wenku8.net
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,werewolf.53site.com
 DOMAIN-SUFFIX,wkcdn.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,xhostfire.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,xiami.net
+=======
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xiaohongshu.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,xiaojukeji.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.net
@@ -278,7 +425,12 @@ DOMAIN-SUFFIX,yinxiang.com
 DOMAIN-SUFFIX,yixia.com
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,youdao.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,youku.com
+=======
+DOMAIN-SUFFIX,ysepay.cn
+DOMAIN-SUFFIX,ysepay.com
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,yunjiasu-cdn.net
 DOMAIN-SUFFIX,zealer.com
 DOMAIN-SUFFIX,zgslb.net
@@ -290,4 +442,8 @@ DOMAIN-SUFFIX,zmz002.com
 IP-CIDR,1.255.62.0/24,no-resolve
 
 # > CN
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,gov.cn
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,cn

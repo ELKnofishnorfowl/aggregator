@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # > Dler Cloud
 DOMAIN-SUFFIX,dler.cloud
 
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Apple CDN
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
@@ -17,7 +20,10 @@ DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ls.apple.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,mzstatic.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # > Duet
 USER-AGENT,duet*
@@ -32,6 +38,7 @@ DOMAIN-SUFFIX,dl.google.com
 # > Microsoft
 USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
+<<<<<<< HEAD
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
@@ -40,15 +47,29 @@ DOMAIN-SUFFIX,xboxlive.com
 
 # > Mugglepay
 DOMAIN-SUFFIX,invoice.mugglepay.com
+=======
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 # > Proxy plugin
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
 
+<<<<<<< HEAD
 # > Steam
 USER-AGENT,Steam*
 DOMAIN-SUFFIX,steamcontent.com
 // DOMAIN,store.steampowered.com
+=======
+# > PlayStation
+DOMAIN-SUFFIX,dl.playstation.net
+
+# > Steam
+USER-AGENT,Steam*
+DOMAIN,cm.steampowered.com
+DOMAIN,ol.epicgames.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamserver.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 
 DOMAIN-SUFFIX,steamchina.com
 
@@ -59,6 +80,11 @@ DOMAIN,wmsjsteam.com
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
 
+<<<<<<< HEAD
+=======
+DOMAIN,gstore.val.manlaxy.com
+
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN,st.dl.bscstorage.net
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.pinyuncloud.com
@@ -90,6 +116,12 @@ DOMAIN-SUFFIX,ts.la
 # > UUBooster
 PROCESS-NAME,UUBooster
 
+<<<<<<< HEAD
+=======
+# > WiFiman
+DOMAIN-SUFFIX,app-measurement.com
+
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 # > Xunlei
 USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
@@ -100,6 +132,10 @@ PROCESS-NAME,fdm
 PROCESS-NAME,Folx
 PROCESS-NAME,NetTransport
 PROCESS-NAME,qbittorrent
+<<<<<<< HEAD
+=======
+PROCESS-NAME,qbittorrent-nox
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 PROCESS-NAME,Thunder
 PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
@@ -107,10 +143,18 @@ PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
 
 # > Private Tracker
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,audiences.me
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,awesome-hd.me
 DOMAIN-SUFFIX,broadcasthe.net
 DOMAIN-SUFFIX,chdbits.co
 DOMAIN-SUFFIX,classix-unlimited.co.uk
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,dmhy.best
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,empornium.me
 DOMAIN-SUFFIX,gazellegames.net
 DOMAIN-SUFFIX,hdchina.org
@@ -127,9 +171,23 @@ DOMAIN-SUFFIX,ourbits.club
 DOMAIN-SUFFIX,passthepopcorn.me
 DOMAIN-SUFFIX,privatehd.to
 DOMAIN-SUFFIX,redacted.ch
+<<<<<<< HEAD
+=======
+DOMAIN-SUFFIX,sandai.net
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 
 DOMAIN-SUFFIX,smtp
+<<<<<<< HEAD
 URL-REGEX,(Subject|HELO|SMTP)
+=======
+URL-REGEX,(Subject|HELO|SMTP)
+
+# > UBI
+DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+
+# > Tailscale
+IP-CIDR,100.64.0.0/10,no-resolve
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2

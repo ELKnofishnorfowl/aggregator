@@ -2,6 +2,7 @@
 # 如果的你代理服务器不支持或没有开启 udp-relay，请不要使用本文件。
 
 IP-CIDR,3.0.163.78/32,no-resolve
+<<<<<<< HEAD
 IP-CIDR,13.230.60.35/32,no-resolve
 IP-CIDR,23.98.43.152/32,no-resolve
 IP-CIDR,35.156.231.150/32,no-resolve
@@ -59,3 +60,14 @@ IP-CIDR,202.181.136.107/32,no-resolve
 IP-CIDR,202.181.136.108/32,no-resolve
 IP-CIDR,202.181.136.234/32,no-resolve
 IP-CIDR,202.226.25.166/32,no-resolve
+=======
+IP-CIDR,52.52.84.170/32,no-resolve
+IP-CIDR,52.58.56.244/32,no-resolve
+
+IP-CIDR,107.155.5.0/24,no-resolve
+IP-CIDR,128.1.193.0/24,no-resolve
+IP-CIDR,128.14.208.0/24,no-resolve
+IP-CIDR,129.227.57.0/24,no-resolve
+IP-CIDR,129.227.71.0/24,no-resolve
+IP-CIDR,129.227.234.0/24,no-resolve
+>>>>>>> a3c13dff82e3a5c487b3d8fd829857fd50f6c7c2
