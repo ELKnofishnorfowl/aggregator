@@ -1,8 +1,7 @@
 name: Process
 on:
   schedule:
-    - cron: "05 03 * * *"
-    - cron: "05 11 * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 env:
@@ -32,7 +31,7 @@ env:
 
 jobs:
   process:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  
 
     steps:
       - name: Checkout
